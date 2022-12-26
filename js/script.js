@@ -1,24 +1,20 @@
 
 let petSalon = {
-    tiTle: "Pets R Us",
-    phone: "123-456-7890",
-    address: {
-        location: "123 Street",
-        city: "Blarney-Ville",
-        zip: "12345"
-    }
-
+    tiTle: 'Pets R Us',
+    phone: '123-456-7890',
+    address: '123 Street',
+    city: 'Blarney-Ville',
+    zip: '12345',
 }
 
-let Pets = {
-    naMe: "Jake",
-    type: "dog",
-    breed: "Lab",
-    gender: "male",
-    age: "13",
-    temperament: "calm",
-    demeanor: "friendly"
-};
+let Jake = {
+    type: 'dog',
+    breed: 'Lab',
+    gender: 'male',
+    age: '13',
+    temperament: 'calm',
+    demeanor: 'friendly',
+}
 
 let Ivy = {
     type: `dog`,
@@ -26,9 +22,8 @@ let Ivy = {
     gender: `female`,
     age: `3`,
     temperament: `hyper`,
-    demeanor: `guarded`
-
-};
+    demeanor: `guarded`,
+}
 
 let Penny = {
     type: `dog`,
@@ -36,13 +31,15 @@ let Penny = {
     gender: `female`,
     age: `10`,
     temperament: `loving`,
-    demeanor: `beautiful soul`,
+    demeanor: `beautiful soul`
 
-};
+}
+
+
 
 alert("There are three Dogs registered today.");
 
-console.log();
+console.log({ Jake }, { Ivy }, { Penny });
 
 
 
